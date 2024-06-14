@@ -13,12 +13,10 @@ Below is a list of the projects completed each day:
 ### Day 1:
 - **Project Name:** Password Validator
 - **Description:** This project is a tool that evaluates the strength of a password entered by the user.
-
-### Day 2:
 - **Project Name:** Counter
 - **Description:** This is a simple project that allows the user to increase or decrease a count or number.
 
-### Subsequent days (3-29):
+### Subsequent days (2-29):
 - More projects will follow, with their respective names and descriptions updated daily.
 
 ### Day 30:
