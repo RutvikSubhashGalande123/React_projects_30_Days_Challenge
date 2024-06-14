@@ -1,8 +1,9 @@
 import { useState } from "react";
-
+import "./App.css";
 function App() {
    const [password, setPassword] = useState("");
    const [strength, setStrength] = useState("");
+   const [showpassword, setShowpassword] = useState(false);
 
    const validate = (input) => {
      const strongP =
@@ -21,16 +22,24 @@ function App() {
      setPassword(e.target.value);
      validate(e.target.value);
    };
+   const handleClick = () => {
+     setShowpassword(!showpassword);
+   };
 
    return (
      <>
        <h1>Password Validator</h1>
        <input
-         type="password"
+         type={showpassword ? "text" : "password"}
+         placeholder="Enter Password"
+         value={password}
+         name="password"
+         id="password"
+         className="password"
          onChange={handleChange}
        />
+       <button onClick={handleClick}>{showpassword ? "Hide" : "Show"}</button>
        <p>Password Strengt:{strength}</p>
-      
      </>
    );
 }
