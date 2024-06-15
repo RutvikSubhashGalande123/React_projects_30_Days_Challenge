@@ -16,12 +16,16 @@ Below is a list of the projects completed each day:
 - **Project Name:** Counter
 - **Description:** This is a simple project that allows the user to increase or decrease a count or number.
 
-### Subsequent days (2-29):
+### Day 2:
+- **Project Name:** Otp Generator
+- **Description:** This project is a tool that generate Otp Efficiently.
+  
+### Subsequent days (3-29):
 - More projects will follow, with their respective names and descriptions updated daily.
 
 ### Day 30:
 - **Project Name:** TBD
 - **Description:** Details about the project on day 30 will be provided upon completion.
 
-I will update this table daily with the name and description of each new project.
+I will update this  daily with the name and description of each new project.
 
