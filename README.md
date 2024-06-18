@@ -19,8 +19,12 @@ Below is a list of the projects completed each day:
 ### Day 2:
 - **Project Name:** Otp Generator
 - **Description:** This project is a tool that generate Otp Efficiently.
+
+### Day 3:
+- **Project Name:** Quiz App
+- **Description:** This project is a create a quize App to check your knowledge in web development by use of this basic application.
   
-### Subsequent days (3-29):
+### Subsequent days (4-29):
 - More projects will follow, with their respective names and descriptions updated daily.
 
 ### Day 30:
