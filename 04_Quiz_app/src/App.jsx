@@ -8,6 +8,7 @@ function App() {
   const [showScore, setShowScore] = useState(false);
   const [time, setTime] = useState(5 * 60); // 5 minutes in seconds
   const [timer, setTimer] = useState(null);
+  const [selectedAnswer, setSelectedAnswer] = useState(null);
 
   useEffect(() => {
     startTimer();
@@ -31,9 +32,12 @@ function App() {
   const handleAnswer = (selectedOption) => {
     const isCorrect =
       selectedOption === questions[currentQuestion].correctAnswer;
+    setSelectedAnswer(selectedOption);
+
     if (isCorrect) {
       setScore(score + 1);
     }
+
     const nextQuestion = currentQuestion + 1;
     if (nextQuestion < questions.length) {
       setCurrentQuestion(nextQuestion);
@@ -74,7 +78,18 @@ function App() {
           <ol>
             {questions[currentQuestion].options.map((option, index) => (
               <li key={index}>
-                <button onClick={() => handleAnswer(option)}>{option}</button>
+                <button
+                  className={
+                    selectedAnswer === option
+                      ? isCorrectAnswer(option)
+                        ?  "correct-answer"
+                        : "incorrect-answer"
+                      : ""
+                  }
+                  onClick={() => handleAnswer(option)}
+                >
+                  {option}
+                </button>
               </li>
             ))}
           </ol>
@@ -83,6 +98,10 @@ function App() {
       )}
     </div>
   );
+
+  function isCorrectAnswer(option) {
+    return option === questions[currentQuestion].correctAnswer;
+  }
 }
 
 export default App;

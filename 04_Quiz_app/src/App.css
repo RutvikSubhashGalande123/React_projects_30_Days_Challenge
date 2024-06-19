@@ -56,6 +56,15 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+button .correct-answer {
+  background-color: #8bc34a; /* Green color for correct answer */
+  color: #fff;
+}
+
+button .incorrect-answer {
+  background-color: #ff5722; /* Red color for incorrect answer */
+  color: #fff;
+}
 
 .timer {
   margin-top: 20px;
