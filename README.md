@@ -28,8 +28,12 @@ Below is a list of the projects completed each day:
   - **Description:** This project is to create Efficiently QR Code for a any text given by user
 - **Project Name:** Currency Converter Website
    - **Description:** This is a simple project that allows the user to find the latest exchange rates and convert amounts from one currency to another. The website provides a user-friendly interface to input the amount and select the currencies for conversion. The project integrates with a third-party API to fetch the most recent exchange rates.
+
+### Day 5:
+- **Project Name:** Animated Gallery app
+   - **Description:** This project is a create a Animated Gallery as well as responsive gallery to attract users.
   
-### Subsequent days (5-30):
+### Subsequent days (6-30):
 - More projects will follow, with their respective names and descriptions updated daily.
 
 
