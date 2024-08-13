@@ -32,8 +32,12 @@ Below is a list of the projects completed each day:
 ### Day 5:
 - **Project Name:** Animated Gallery app
    - **Description:** This project is a create a Animated Gallery as well as responsive gallery to attract users.
+
+ ### Day 6:
+- **Project Name:** Image to PDF converter
+   - **Description:** This project is a create a to convert images into pdfs.
   
-### Subsequent days (6-30):
+### Subsequent days (7-30):
 - More projects will follow, with their respective names and descriptions updated daily.
 
 
